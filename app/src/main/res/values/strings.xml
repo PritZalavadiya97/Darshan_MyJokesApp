@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Jokes</string>
+
+    <string name="error_message_internet_connection">Internet connection is not active</string>
+    <string name="validation_message_both_station_same"><![CDATA[Source & Destination can\'t be same]]></string>
+    <string name="bmrcl_address">3rd Floor, BMTC Complex, K.H.Road, Shanthinagar, Bangalore- 560 027.</string>
+    <string name="title_act_fare_chart">Fare Chart</string>
+
+    <string name="developerName">Prit D. Zalavadiya (160540107161)</string>
+    <string name="mentoredBy">Prof. Rajkumar Gondaliya , Computer Engineering Department</string>
+    <string name="contectUsNo">+91-97277-47317</string>
+    <string name="inst_name"> Darshan Institute of Engineering &amp; Technology</string>
+
+    <string name="CategoryTitle">CategoryTitle</string>
+    <string name="TopicID">topicID</string>
+
+
+</resources>

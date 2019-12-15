@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "909339446491",
+    "firebase_url": "https://jokes-333fa.firebaseio.com",
+    "project_id": "jokes-333fa",
+    "storage_bucket": "jokes-333fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909339446491:android:644f4872da6d007a8dd0fe",
+        "android_client_info": {
+          "package_name": "com.aswdc_myjokes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909339446491-0bnte9rihrhh6cd9tpd013sus5k6cgfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_jcR-LHgppgY3Ao4xostHRCnQYdRQkSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909339446491-0bnte9rihrhh6cd9tpd013sus5k6cgfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

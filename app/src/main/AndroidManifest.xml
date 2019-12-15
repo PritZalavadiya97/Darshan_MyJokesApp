@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aswdc_projectname.myjokes">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:grantUriPermissions="true"
+            android:exported="false"
+            android:authorities="${applicationId}">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+
+        </provider>
+
+
+        <activity android:name=".Design.activity.ActivitySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Design.activity.ActivityCategoryList"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+        <activity android:name=".Design.activity.ActivityTopicsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Design.activity.ActivityTopicsList" />
+        </activity>
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <activity
+            android:name=".Design.activity.ActivityFavoriteList"
+            android:screenOrientation="portrait">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Design.activity.ActivityFavoriteList"></meta-data>
+        </activity>
+        <activity android:name=".Design.activity.ActivityWebView"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Design.activity.ActivityWebView" />
+        </activity>
+        <activity android:name=".Design.activity.ActivityFeedback"></activity>
+    <activity android:name=".Design.activity.DeveloperActivity"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ae5de019a851cee96696a4c7c019c214d1629e6c" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

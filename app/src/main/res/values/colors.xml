@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bd7810</color>
+    <color name="colorPrimaryDark">#bd7810</color>
+    <color name="colorAccent">#bc780d</color>
+
+
+    <color name="colorWindowBackground">#f0f0f0</color>
+
+
+    <color name="black">#000000</color>
+    <color name="qafontcolor">#111111</color>
+    <color name="text_gray_light">#3F3F3F</color>
+
+    <color name="gray_dark">#7E7E7E</color>
+    <color name="gray">#B9B9B9</color>
+    <color name="gray_light">#DCDCDC</color>
+    <color name="green">#109D59</color>
+    <color name="green_light">#D8F0E3</color>
+    <color name="question_btn_text_color">#007AFF</color>
+    <color name="question_btn_background_color">#F1F1F1</color>
+    <color name="dashbaord_btn_background">#f9fbfc</color>
+    <color name="red_light">#fadddc</color>
+    <color name="red">#b84742</color>
+    <color name="blue">#0000FF</color>
+
+
+
+    <color name="white">#ffffff</color>
+
+    <color name="actionBarTop">#bd7810</color>
+    <color name="actionBarBottom">#b77a29</color>
+    <color name="layoutTop">#b77a29</color>
+    <color name="layouBottom">#a48350</color>
+    <color name="colorNumber">#79B9Eb</color>
+    <color name="colorWhite">#e9e9e9</color>
+
+    <color name="colorPrimaryDarkOld">#2173B3</color>
+</resources>
